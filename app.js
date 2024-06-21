@@ -7,7 +7,9 @@ app.use(cors());
 app.use("/files", express.static("files"));
 //mongodb connection----------------------------------------------
 const mongoUrl =
-  "mongodb+srv://adarsh:adarsh@cluster0.zllye.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://sanjeevasanku:dbSanjeeva@cluster0.5dx494m.mongodb.net/saanjh";
+
+  //mongodb+srv://sanjeevasanku:dbSanjeeva@cluster0.5dx494m.mongodb.net/
 
 mongoose
   .connect(mongoUrl, {
